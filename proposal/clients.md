@@ -1,7 +1,7 @@
 # Kubernetes client libraries proposal
-Kubernetes officially support Go and Python client libraries right now. Go client is
+Kubernetes officially support Go and [Python client](https://github.com/kubernetes-incubator/client-python) libraries right now. Go client is
 developed and extracted from main kubernetes repositories. On the other hand, python
-client base is from OpenAPI and generated code using swagger-codegen. By generating the
+client base is from OpenAPI and generated code using [swagger-codegen](https://github.com/swagger-api/swagger-codegen). By generating the
 API and Model part of the client, updating the client and tracking changes from main
 repositories would be much easier.
 
@@ -16,7 +16,7 @@ but having a basic supported client would even help those client libraries to fo
 on their interface and delegate transport and config layer to this basic client.
 
 # Development process
-Development would be based on a generated client using OpenAPI and swagger-codegen.
+Development would be based on a generated client using OpenAPI and [swagger-codegen](https://github.com/swagger-api/swagger-codegen).
 The basic functionality such as loading config, watch, etc. would be added on top
 of this generated client. The idea is to develop transportation and configuration
 layer and do not modify O(N) generated files (such as API and models). The releases
@@ -28,7 +28,7 @@ API calls such as list pods should work.
 
 ### Beta Version
 Minimum requirement for beta version is supporting watch and exec calls as they
-are not normally supported out of the box from swagger-codegen.
+are not normally supported out of the box from [swagger-codegen](https://github.com/swagger-api/swagger-codegen).
 
 ### Stable Version (WIP)
 The client should be stable and the interface should be stable and should
