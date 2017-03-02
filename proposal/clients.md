@@ -39,6 +39,15 @@ All of these client will start as a repo in
 [kubernetes incubator](https://github.com/kubernetes/community/blob/master/incubator.md)
 project.
 
+Proposed repos are 
+
+- client-common: common codes such as spec preporcessing, etc.
+- client-[lang]: where lang is one of java, csharp, js, php, ruby
+
+Champion: TBD
+Sponsor: TBD
+sig: sig-api-machinery
+
 #Support
 All of these clients are supported by kuberenetes 
 [API Machinery special interest group](https://github.com/kubernetes/community/tree/master/sig-api-machinery).
