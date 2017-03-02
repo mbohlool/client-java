@@ -44,12 +44,11 @@ Proposed repos are
 - client-common: common codes such as spec preporcessing, etc.
 - client-[lang]: where lang is one of java, csharp, js, php, ruby
 
-Champion: TBD
+Incubation process requirements:
 
-Sponsor: TBD
-
-sig: sig-api-machinery
-
+- Champion: TBD
+- Sponsor: TBD
+- sig: sig-api-machinery
 
 #Support
 All of these clients are supported by kuberenetes 
