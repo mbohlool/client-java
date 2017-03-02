@@ -45,8 +45,11 @@ Proposed repos are
 - client-[lang]: where lang is one of java, csharp, js, php, ruby
 
 Champion: TBD
+
 Sponsor: TBD
+
 sig: sig-api-machinery
+
 
 #Support
 All of these clients are supported by kuberenetes 
