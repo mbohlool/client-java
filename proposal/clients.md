@@ -51,5 +51,5 @@ Incubation process requirements:
 - sig: sig-api-machinery
 
 #Support
-All of these clients are supported by kuberenetes 
+All of these clients are going to be supported by kuberenetes 
 [API Machinery special interest group](https://github.com/kubernetes/community/tree/master/sig-api-machinery).
